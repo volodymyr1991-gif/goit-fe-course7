@@ -1,0 +1,304 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: "MontserratRegular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v14-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/montserrat-v14-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/montserrat-v14-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/montserrat-v14-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/montserrat-v14-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v14-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v14-latin-700.eot"); /* IE9 Compat Modes */
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/montserrat-v14-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/montserrat-v14-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/montserrat-v14-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/montserrat-v14-latin-700.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+/* roboto-slab-regular - latin */
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-slab-v11-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-slab-v11-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-slab-v11-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/roboto-slab-v11-latin-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-slab-v11-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto-slab-v11-latin-regular.svg#RobotoSlab") format("svg"); /* Legacy iOS */
+}
+@font-face {
+  font-family: "Seaweed Script";
+  src: url("../fonts/SeaweedScript-Regular.woff2") format("woff2"),
+    url("../fonts/SeaweedScript-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-LightItalic.woff2") format("woff2"),
+    url("../fonts/Roboto-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+button,
+fieldset,
+form,
+input,
+label,
+legend,
+textarea,
+select,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+a,
+b,
+i,
+u,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  font-size: 100%;
+  font-style: normal;
+  font-weight: normal;
+  line-height: inherit;
+  vertical-align: baseline;
+  background: none;
+  white-space: normal;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  /* font-family: $reg; */
+}
+
+form {
+  height: inherit;
+}
+iframe {
+  width: 100%;
+}
+body {
+  /* width: 1400px; */
+}
+.site-logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fed136;
+  font-family: "Seaweed Script";
+  font-size: 26px;
+  line-height: 42px;
+}
+.site-navigation-item {
+  list-style: none;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.site-navigation-item a {
+  text-decoration: none;
+  color: #222;
+}
+.site-navigation {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 125px;
+  width: 940px;
+  display: flex;
+  justify-content: space-between;
+}
+.site-navigation-list {
+  width: 485px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* SERVICES SECTION */
+.services {
+  margin-bottom: 118px;
+}
+.services-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 75px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.services-text {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
+  color: rgb(119, 119, 119);
+  margin-bottom: 99px;
+}
+.services-list {
+  list-style: none;
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.services-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 290px;
+}
+.services-list-item {
+  position: relative;
+}
+.services-list-title {
+  text-align: center;
+}
+.services-img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 40px;
+}
+
+.box::before {
+  display: block;
+  content: "";
+  border: 3px solid rgb(254, 209, 54);
+  border-radius: 50%;
+  width: 72px;
+  height: 71px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: -16px;
+}
+.services-list-title {
+  font-size: 18px;
+  line-height: 75px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.services-list-text {
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  color: rgb(119, 119, 119);
+  line-height: 1.5;
+  text-align: center;
+}
+/* CONTACT SECTION */
+.contact {
+  height: 675px;
+  position: relative;
+  width: 1402px;
+  margin: 0 auto;
+
+  background-color: rgb(34, 34, 34);
+}
+.wrap {
+  position: absolute;
+  right: 0;
+  top: 120px;
+}
+
+.contact-title {
+  padding-top: 111px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 75px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #fff;
+}
+.contact-text {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
+  color: rgb(119, 119, 119);
+}
