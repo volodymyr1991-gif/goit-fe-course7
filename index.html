@@ -98,7 +98,54 @@
         </div>
         <h2 class="contact-title">Contact Us</h2>
         <p class="contact-text">Proin iaculis purus consequat sem cure</p>
-        <form action=""></form>
+        <form class="form" action="#" method="GET">
+          <div class="wrap-input">
+            <ul class="form-list">
+              <li class="form-list-item">
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  required
+                  placeholder="Your name*"
+                  autofocus
+                />
+              </li>
+              <li class="form-list-item">
+                <input
+                  class="input"
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="Your e-mail*"
+                />
+              </li>
+
+              <li class="form-list-item">
+                <input
+                  class="input"
+                  type="text"
+                  name="Subject"
+                  placeholder="Subject"
+                />
+              </li>
+            </ul>
+            <ul class="form-list-textarea">
+              <li class="form-list-textarea-item">
+                <textarea
+                  class="textarea"
+                  name="message"
+                  required
+                  placeholder="Your message*"
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </li>
+            </ul>
+          </div>
+          <button class="button" type="submit">Send Massage</button>
+        </form>
       </section>
     </main>
   </body>
