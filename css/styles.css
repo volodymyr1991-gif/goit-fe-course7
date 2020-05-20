@@ -178,6 +178,10 @@ body {
   top: 39.497px;
   z-index: 50;
 }
+.site-logo:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
 
 .site-logo {
   text-decoration: none;
@@ -188,6 +192,8 @@ body {
   line-height: 42px;
   transition: color 200ms linear;
   animation: logo-appear 1s linear;
+  transition: 1s;
+  transform: rotate(-360deg);
 }
 
 @keyframes logo-appear {
