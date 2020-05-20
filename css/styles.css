@@ -186,7 +186,25 @@ body {
   font-family: "Seaweed Script";
   font-size: 26px;
   line-height: 42px;
+  transition: color 200ms linear;
+  animation: logo-appear 1s linear;
 }
+
+@keyframes logo-appear {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0px);
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  100% {
+    /* transform: rotate(360deg); */
+  }
+}
+
 .site-navigation-item {
   list-style: none;
   font-family: "Montserrat";
@@ -197,6 +215,7 @@ body {
 .site-navigation-item a {
   text-decoration: none;
   color: #222;
+  transition: 0.2s;
 }
 .site-navigation {
   margin: 0 auto;
@@ -212,7 +231,7 @@ body {
   justify-content: space-between;
   padding-top: 15px;
 }
-.site-navigation-list a:hover {
+.site-navigation-item a:hover {
   color: #fed136;
 }
 
