@@ -166,18 +166,6 @@ body {
   /* width: 1400px; */
 }
 
-.Home {
-  font-size: 14px;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  line-height: 2.929;
-  text-align: center;
-  position: absolute;
-  left: 688.937px;
-  top: 39.497px;
-  z-index: 50;
-}
 .site-logo:hover {
   transform: rotate(360deg);
   transition: 1s;
@@ -185,7 +173,7 @@ body {
 
 .site-logo {
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #fed136;
   font-family: "Seaweed Script";
   font-size: 26px;
@@ -317,7 +305,7 @@ body {
 .contact {
   height: 675px;
   position: relative;
-  width: 1402px;
+  /* width: 1402px; */
   margin: 0 auto;
 
   background-color: rgb(34, 34, 34);
@@ -412,6 +400,9 @@ body {
 .form-list-textarea-item textarea[name="message"]:invalid {
   outline: red solid 3px;
 }
+/* .form-list-textarea-item textarea:focus {
+  outline: red solid 3px;
+} */
 
 .textarea {
   resize: none;
